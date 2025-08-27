@@ -7,7 +7,7 @@ TO-DO
 - menu page
 - revenue page
 - stock page
-- contract page
+- contact page
 
 - readme.MD
 - product backlog
