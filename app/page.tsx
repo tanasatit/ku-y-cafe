@@ -54,6 +54,11 @@ export default function HomePage({ onViewMenu }: HomePageProps) {
 
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src="https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg"
+                  alt="Coffee Shop"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-card p-4 rounded-xl shadow-lg border">
                 <div className="flex items-center space-x-2">
