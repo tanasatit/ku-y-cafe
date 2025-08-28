@@ -9,7 +9,6 @@ import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Package, Search, AlertTriangle, CheckCircle, Clock } from "lucide-react"
 
-// ... your StockItem interface and helper functions here ...
 
 interface StockItem {
   id: string;
