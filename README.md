@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Y-Cafe
+
+Y-Cafe is a modern cafeteria web application built with Next.js. It features an intuitive user interface with multiple pages, including Home, Menu, Revenue, Stock, and Contact pages, designed to streamline the management and presentation of cafeteria services.
+
+## Features
+
+- **Home Page**: Welcome users with an overview of the cafeteria, highlights, and featured items.
+- **Menu Page**: Display the complete menu with categories, prices, and item details.
+- **Revenue Page**: View and analyze revenue data to help track sales performance.
+- **Stock Page**: Manage and monitor cafeteria stock and inventory.
+- **Contact Page**: Provide contact information and a form for customer inquiries.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) — React framework for server-side rendering and static site generation.
+- React — UI library for building the user interface.
+- [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework for rapid UI development.
+- [shadcn/ui](https://ui.shadcn.com/) — A set of accessible, reusable UI components built with Tailwind CSS and Radix UI.
+- Additional libraries/tools you used (e.g., charting libraries for revenue, form handling libraries, etc.)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+Make sure you have the following installed:
+
+- Node.js (version 14 or above)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/yourusername/y-cafe.git
+   cd y-cafe
+   ```
+
+2. Install dependencies:
+
+   Using npm:
+
+   ```
+   npm install
+   ```
+
+   Or using yarn:
+
+   ```
+   yarn install
+   ```
+
+### Running the Development Server
+
+Start the Next.js development server:
+
+```
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build the project for production:
 
-## Learn More
+```
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To start the production server after building:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```
+/pages          - Next.js pages (Home, Menu, Revenue, Stock, Contact)
+/components     - Reusable UI components, including those from shadcn/ui
+/public         - Public assets like images, icons
+/styles         - Tailwind CSS configuration and styles
+/utils          - Utility functions (optional)
+/data           - Static or mock data (optional)
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tailwind CSS & shadcn/ui Configuration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project uses Tailwind CSS for styling and shadcn/ui components to build consistent and accessible UI elements efficiently. Make sure that Tailwind CSS is properly configured in your Next.js setup (see `tailwind.config.js`), and shadcn/ui components are imported as needed.
+
+## Contribution
+
+Feel free to fork the project and submit pull requests. For major changes, please open an issue first to discuss what you want to change.
+
+## License
+
+Specify your license here (e.g., MIT License)
+
+---
+
+Thank you for checking out Y-Cafe! If you have any questions or feedback, please contact the project maintainer.
